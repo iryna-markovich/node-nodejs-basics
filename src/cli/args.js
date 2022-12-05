@@ -1,6 +1,6 @@
-const parseArgs = () => {
-  const args = process.argv.slice(2)
+const args = process.argv.slice(2)
 
+const parseArgs = () => {
   const result = args
     .map((arg, index) => {
       const start = `${arg.slice(2)} is `
